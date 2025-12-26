@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>F1 Hub | Drive to Survive</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="f1.css">
+</head>
+<body class="home">
+
+<video class="bg-video" autoplay muted loop playsinline>
+  <source src="video.mp4" type="video/mp4">
+</video>
+
+<div class="page-overlay"></div>
+
+    
+
+    <div class="layout">
+
+        
+        <header class="top-bar">
+            <div class="logo-wrapper">
+                <img src="images/F1.png" alt="F1 Logo" class="f1-logo">
+            </div>
+
+            <nav class="main-nav">
+                <ul>
+                    <li><a href="#drivers">Drivers</a></li>
+                    <li><a href="#teams">Teams</a></li>
+                    <li><a href="#calendar">Calendar</a></li>
+                    <li><a href="#standings">Overall Standings</a></li>
+                </ul>
+            </nav>
+        </header>
+
+
+        <main class="hero">
+            <div class="hero-text">
+                <h1 class="hero-title">DRIVE TO SURVIVE</h1>
+                <p class="hero-subtitle">
+                    Feel the pressure, the speed and the stories behind every race weekend.
+                </p>
+            </div>
+        </main>
+
+        
+        <div class="countdown-panel">
+            <h2>Next Race</h2>
+            <p class="race-name">Austrilian Grand Prix</p>
+            <div class="countdown-timer" id="countdown">
+                <div class="time-box"><span class="number" id="days">00</span><span class="label">Days</span></div>
+                <div class="time-box"><span class="number" id="hours">00</span><span class="label">Hours</span></div>
+                <div class="time-box"><span class="number" id="minutes">00</span><span class="label">Minutes</span></div>
+                <div class="time-box"><span class="number" id="seconds">00</span><span class="label">Seconds</span></div>
+            </div>
+            <p class="race-date">25 May 2025 • 15:00 (Local Time)</p>
+        </div>
+
+    </div>
+
+   
+   <section id="drivers" class="content-section">
+    <h2>Drivers</h2>
+    <p>Meet the top F1 drivers of the 2025 season.</p>
+
+    <div class="cards-grid">
+
+        <!-- Lando Norris -->
+	<a href="lando.html" class="card-link">
+ 	 <article class="driver-card reveal">
+     	 <div class="driver-photo lando"></div>
+      	 <div class="driver-body">
+          	<h3 class="driver-name">Lando Norris</h3>
+         	 <p class="driver-team">McLaren</p>
+     	 </div>
+  	</article>
+	</a>
+
+        <!-- Max Verstappen -->
+	<a href="max.html" class="card-link">
+        <article class="driver-card reveal">
+            <div class="driver-photo max"></div>
+            <div class="driver-body">
+                <h3 class="driver-name">Max Verstappen</h3>
+                <p class="driver-team">Red Bull Racing</p>
+            </div>
+        </article>
+	</a>
+
+        <!-- Oscar Piastri -->
+	<a href="oscar.html" class="card-link">
+        <article class="driver-card reveal">
+            <div class="driver-photo oscar"></div>
+            <div class="driver-body">
+                <h3 class="driver-name">Oscar Piastri</h3>
+                <p class="driver-team">McLaren</p>
+            </div>
+        </article>
+	</a>
+        <!-- George Russell -->
+	<a href="george.html" class="card-link">
+        <article class="driver-card reveal">
+            <div class="driver-photo george"></div>
+            <div class="driver-body">
+                <h3 class="driver-name">George Russell</h3>
+                <p class="driver-team">Mercedes</p>
+            </div>
+        </article>
+	</a>
+        <!-- Charles Leclerc -->
+	<a href="charles.html" class="card-link">
+        <article class="driver-card reveal">
+            <div class="driver-photo charles"></div>
+            <div class="driver-body">
+                <h3 class="driver-name">Charles Leclerc</h3>
+                <p class="driver-team">Ferrari</p>
+            </div>
+        </article>
+	</a>
+
+    </div>
+</section>
+
+    
+   <section id="teams" class="content-section">
+    <h2>Teams</h2>
+    <p>Top 5 Teams of the 2025 season.</p>
+
+    <div class="team-card-grid">
+
+        <!-- McLaren -->
+	<a href="mcl.html" class="card-link">
+        <div class="team-card">
+            <div class="team-header">
+                <h3 class="team-name">McLaren</h3>
+                <img src="images/mcl.avif" class="team-logo-small" alt="McLaren Logo">
+            </div>
+            <img src="images/mcl2.avif" class="team-car" alt="McLaren F1 Car">
+        </div>
+	</a>
+
+        <!-- Red Bull Racing -->
+    <a href="redb.html" class="card-link">
+        <div class="team-card">
+            <div class="team-header">
+                <h3 class="team-name">Red Bull Racing</h3>
+                <img src="images/redb.avif" class="team-logo-small" alt="Red Bull Logo">
+            </div>
+            <img src="images/redb2.avif" class="team-car" alt="Red Bull F1 Car">
+        </div>
+    </a>
+        <!-- Mercedes -->
+    <a href="merc.html" class="card-link">
+        <div class="team-card">
+            <div class="team-header">
+                <h3 class="team-name">Mercedes</h3>
+                <img src="images/merc3.avif" class="team-logo-small" alt="Mercedes Logo">
+            </div>
+            <img src="images/merc2.avif" class="team-car" alt="Mercedes F1 Car">
+        </div>
+    </a>
+        <!-- Ferrari -->
+    <a href="fer.html" class="card-link">
+        <div class="team-card">
+            <div class="team-header">
+                <h3 class="team-name">Ferrari</h3>
+                <img src="images/fer.webp" class="team-logo-small" alt="Ferrari Logo">
+            </div>
+            <img src="images/ferr2.avif" class="team-car" alt="Ferrari F1 Car">
+        </div>
+    </a>
+        <!-- Williams -->
+    <a href="will.html" class="card-link">
+        <div class="team-card">
+            <div class="team-header">
+                <h3 class="team-name">Williams</h3>
+                <img src="images/will.webp" class="team-logo-small" alt="Williams Logo">
+            </div>
+            <img src="images/will2.avif" class="team-car" alt="Williams F1 Car">
+        </div>
+    </a>
+    </div>
+</section>
+
+   
+    <section id="calendar" class="content-section">
+        <h2>Selected Race Calendar (5 races)</h2>
+        <ol class="race-list reveal">
+
+            <li>
+              <a class="race-link" href="https://www.formula1.com/en/racing/2025/bahrain" target="_blank">
+                <strong>Bahrain Grand Prix</strong> — Sakhir
+              </a>
+            </li>
+
+            <li>
+              <a class="race-link" href="https://www.formula1.com/en/racing/2025/saudi-arabia" target="_blank">
+                <strong>Saudi Arabian Grand Prix</strong> — Jeddah
+              </a>
+            </li>
+
+            <li>
+              <a class="race-link" href="https://www.formula1.com/en/racing/2025/australia" target="_blank">
+                <strong>Australian Grand Prix</strong> — Albert Park
+              </a>
+            </li>
+
+            <li>
+              <a class="race-link" href="races/monaco.html">
+                <strong>Monaco Grand Prix</strong> — Monte Carlo
+              </a>
+            </li>
+
+            <li>
+              <a class="race-link" href="https://www.formula1.com/en/racing/2025/united-arab-emirates" target="_blank">
+                <strong>Abu Dhabi Grand Prix</strong> — Yas Marina
+              </a>
+            </li>
+
+        </ol>
+
+        <p class="small-note">Click any race to view the official results on Formula1.com</p>
+    </section>
+
+
+    <section id="standings" class="content-section">
+        <h2>2025 Overall Standings (selected)</h2>
+
+        <h3>Drivers</h3>
+        <table class="standings-table">
+            <thead>
+                <tr><th>Pos</th><th>Driver</th><th>Points</th></tr>
+            </thead>
+           <tbody>
+    <tr>
+        <td class="card-link">1</td>
+        <td class="driver-cell">
+           <a href="lando.html" class="card-link">
+            <img src="images/lando.png" class="standing-driver-img">
+            Lando Norris
+        </td>
+           </a>
+        <td class="card-link">423</td>
+    </tr>
+
+    <tr>
+        <td class="card-link">2</td>
+        <td class="driver-cell">
+            <a href="max.html" class="card-link">
+            <img src="images/max.jpeg" class="standing-driver-img">
+            Max Verstappen
+        </td>
+            </a>
+        <td class="card-link">421</td>
+    </tr>
+
+    <tr>
+        <td class="card-link">3</td>
+        <td class="driver-cell">
+             <a href="oscar.html" class="card-link">
+            <img src="images/oscar.jpg" class="standing-driver-img">
+            Oscar Piastri
+        </td>
+            </a>
+       <td class="card-link">410</td>
+    </tr>
+
+    <tr>
+        <td class="card-link">4</td>
+        <td class="driver-cell">
+            <a href="george.html" class="card-link">
+            <img src="images/george.png" class="standing-driver-img">
+            George Russell
+        </td>
+            </a>
+        <td class="card-link">319</td>
+    </tr>
+
+    <tr>
+        <td class="card-link">5</td>
+        <td class="driver-cell">
+            <a href="charles.html" class="card-link">
+            <img src="images/charles.jpg" class="standing-driver-img">
+            Charles Leclerc
+        </td>
+         </a>
+        <td class="card-link">242</td>
+    </tr>
+</tbody>
+        </table>
+
+        <h3>Constructors</h3>
+        <table class="standings-table">
+            <thead>
+                <tr><th>Pos</th><th>Team</th><th>Points</th></tr>
+            </thead>
+           <tbody>
+    <tr>
+        <td class="card-link">1</td>
+        <td class="team-cell">
+            <a href="mcl.html" class="card-link">
+            <img src="images/mcl.avif" class="standing-team-logo">
+            McLaren
+        </td>
+            </a>
+        <td class="card-link">833</td>
+    </tr>
+
+    <tr>
+        <td class="card-link">2</td>
+        <td class="team-cell">
+            <a href="merc.html" class="card-link">
+            <img src="images/merc3.avif" class="standing-team-logo">
+            Mercedes
+        </td>
+            </a>
+        <td class="card-link">469</td>
+    </tr>
+
+    <tr>
+        <td class="card-link">3</td>
+        <td class="team-cell">
+            <a href="redb.html" class="card-link">
+            <img src="images/redb.avif" class="standing-team-logo">
+            Red Bull Racing
+        </td>
+            </a>
+        <td class="card-link">451</td>
+    </tr>
+
+    <tr>
+        <td class="card-link">4</td>
+        <td class="team-cell">
+            <a href="fer.html" class="card-link">
+            <img src="images/fer.webp" class="standing-team-logo">
+            Ferrari
+        </td>
+            </a>
+        <td class="card-link">398</td>
+    </tr>
+
+    <tr>
+        <td class="card-link">5</td>
+        <td class="team-cell">
+            <a href="will.html" class="card-link">
+            <img src="images/will.webp" class="standing-team-logo">
+            Williams
+        </td>
+        </a>
+        <td class="card-link">137</td>
+    </tr>
+</tbody>
+        </table>
+    </section>
+
+   
+    <script src="f1.js"></script>
+</body>
+</html>
+
